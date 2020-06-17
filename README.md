@@ -16,9 +16,9 @@ Poject - readme generator
 
 Description -  my project is about generating a read me
     
-Motivation - this project was for homework
+Motivation - Using and getting familiar with node.js
  
-Why this project - it was for homework
+Why this project - To better familiarize and understand the workings of node.js
 
 
   License:
