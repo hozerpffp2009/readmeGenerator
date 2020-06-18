@@ -1,31 +1,43 @@
 
 
-Table of contents:
+Poject Name - readme generator
 
-* GitHub user name
+
+
+ Table of contents:
+
+* License
+* Contact
 * Project
 * Description
 * Motivation
 * Why this project
+* GitHub user name
 
 
 
-GitHub -  hozerpffp2009.
+License type - ISC
 
-Poject - readme generator
+Preferred way of contact - email
 
-Description -  my project is about generating a read me
+Description -  this project allows the user to generate a readme file using node.js
     
-Motivation - this project was for homework
+Motivation - needing to better understand node.js
  
-Why this project - it was for homework
+Why this project - to learn node.js better
+
+GitHub username - hozerpffp2009
+
+Email - hozerpffp2009@gmail.com
 
 
-  License:
-  This project is licensed under ISC - see the ISC.md file for details.
 
-  Authors:
-  Joseph Arocha
+                        Authors:
+                      Joseph Arocha
+                        License:
+        This project is licensed under ISC - see the ISC.md file for details.
+
+
    
   
 

@@ -33,8 +33,33 @@ function promptUser() {
             message: "Why did you choose to build this project?",
             name: "example"
            
-        } 
-       
+        } ,
+        {
+            type: "checkbox",
+            message: "what license are you using?",
+            name: "license",
+            choices: ["BSD-3", 
+              "ISC", 
+              "MIT", 
+              "APN-1"
+            ]
+          },
+          {
+          type: "list",
+          message: "What is your preferred method of communication?",
+          name: "contact",
+          choices: [
+            "email",
+            "phone call",
+            "text message"
+          ]
+        },
+        {
+            type: "input",
+            message: "What is your email address?",
+            name: "email"
+           
+        }
         ] 
   
     ); 
@@ -49,8 +74,14 @@ inqPromise.then(function(userInput) {
 
 let md = `
 
-Table of contents:
+Poject Name - ${userInput.projectName}
 
+
+
+ Table of contents:
+
+* License
+* Contact
 * Project
 * Description
 * Motivation
@@ -59,8 +90,9 @@ Table of contents:
 
 
 
+License type - ${userInput.license}
 
-Poject - ${userInput.projectName}
+Preferred way of contact - ${userInput.contact}
 
 Description -  ${userInput.description}
     
@@ -68,13 +100,18 @@ Motivation - ${userInput.motivation}
  
 Why this project - ${userInput.example}
 
-GitHub - ${userInput.github}
+GitHub username - ${userInput.github}
 
-  License:
-  This project is licensed under ISC - see the ISC.md file for details.
+Email - ${userInput.email}
 
-  Authors:
-  Joseph Arocha
+
+
+                        Authors:
+                      Joseph Arocha
+                        License:
+        This project is licensed under ISC - see the ISC.md file for details.
+
+
    
   
 
